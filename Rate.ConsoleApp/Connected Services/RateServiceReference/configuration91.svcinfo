@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="8rtnvEbF+bKyD/+fCtzFzztIb7s=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="Ue3pGmSxoW7R3KPv3Qm3ksVxWK8=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IRateService">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IRateService" contract="RateServiceReference.IRateService" bindingType="basicHttpBinding" address="http://localhost:52880/RateService.svc" bindingConfiguration="BasicHttpBinding_IRateService">
+    <endpoint name="BasicHttpBinding_IRateService" contract="RateServiceReference.IRateService" bindingType="basicHttpBinding" address="http://localhost:50000/RateService.svc" bindingConfiguration="BasicHttpBinding_IRateService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:52880/RateService.svc</serializedValue>
+          <serializedValue>http://localhost:50000/RateService.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
