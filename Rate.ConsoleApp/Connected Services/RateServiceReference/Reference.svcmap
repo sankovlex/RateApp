@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ffa55223-2f98-483b-bdd1-b30b221bb45b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52880/RateService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RateService2.xsd" MetadataType="Schema" ID="3f6023aa-cb94-47db-bd75-3118368ae98b" SourceId="1" SourceUrl="http://localhost:52880/RateService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DefaultRateService.wsdl" MetadataType="Wsdl" ID="3a3fc9a7-8672-4aa8-abae-80bc115b65fc" SourceId="1" SourceUrl="http://localhost:52880/RateService.svc?wsdl" />
+    <MetadataFile FileName="RateService.xsd" MetadataType="Schema" ID="9a2d5ea2-7a5a-4799-b49a-5b16543922cb" SourceId="1" SourceUrl="http://localhost:52880/RateService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RateService1.xsd" MetadataType="Schema" ID="cc6ab8c5-4231-4282-b9d5-1f53896a979e" SourceId="1" SourceUrl="http://localhost:52880/RateService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RateService.disco" MetadataType="Disco" ID="ddfe9722-6ccb-4a94-8e16-4f6351ad0bc0" SourceId="1" SourceUrl="http://localhost:52880/RateService.svc?disco" />
+    <MetadataFile FileName="RateService21.xsd" MetadataType="Schema" ID="0db172d1-039e-46da-9dbb-f46842093daf" SourceId="1" SourceUrl="http://localhost:52880/RateService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
